@@ -36,8 +36,7 @@ fun main (){
     val vize = girdi.nextInt()
 
     println("Final Notunuzu Giriniz")
-    val girdi2 = Scanner(System.`in`)
-    val final = girdi2.nextInt()
+    val final = girdi.nextInt()
 
     var ortalama = (vize*0.4)+(final*0.6)
     println("Ders Notunuz: $ortalama")
