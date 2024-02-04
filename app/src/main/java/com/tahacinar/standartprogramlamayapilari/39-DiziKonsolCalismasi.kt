@@ -15,6 +15,7 @@ fun main() {
         isimler[i] = isim
     }
 
-
-
+    for((indeks,isim) in isimler.withIndex()){
+        println("${indeks+1}. isim : $isim")
+    }
 }
