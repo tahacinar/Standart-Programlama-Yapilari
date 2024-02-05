@@ -19,4 +19,13 @@ fun main(){
         notlar[i] = not
     }
 
+    var toplam = 0
+
+    for ( i in 0 until notlar.count()){
+        println("${dersler[i]} : ${notlar[i]}")
+
+        toplam = toplam + notlar[i]
+    }
+
+
 }
