@@ -26,6 +26,14 @@ fun main(){
 
         toplam = toplam + notlar[i]
     }
+    val ortalama = toplam / notlar.count()
 
+    println("Ortalama : $ortalama")
+
+    if (ortalama >= 50){
+        println("GEÇTİ")
+    }else{
+        println("KALDI")
+    }
 
 }
